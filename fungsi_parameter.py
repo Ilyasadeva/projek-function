@@ -7,3 +7,7 @@ def greetings(nama, waktu):
 greetings('andi' ,'pagi')
 greetings('rudy' ,'siang')
 greetings('wahyu' ,'malam')
+
+
+greetings('malam', 'wahyu') # positional parameter
+greetings(waktu='malam', nama='wahyu') # fixed parameter
